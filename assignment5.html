@@ -1,0 +1,52 @@
+<!--
+ Part 1: Questions A (2.5 points)
+State the results of executing each of the following lines of code in the console and explain why the result the occurs. You can state the result as comments in your code or you may state the result by writing it on the web page.  You will want to complete module 5 the reading from your Javascript book prior to working on this assignment and this may also require some research on your own. 
+
+a) var z;  alert(typeof z);
+	The typeof operator is used to get the data type of its operand. It returns z
+b) alert(!!false);
+	it will return !!false
+c) alert(7%2);
+	it will return 3.5
+d) var name="Jim"; alert(name+" Smith");
+	it will return Jim Smith
+e) var myNum="5"; alert(myNum+2); 
+	it will return 7
+
+
+Part 2: Questions B (2.5 points)
+You can describe the results as comments in your code or you may state the results by writing it onto the web page.
+
+Describe two important differences between Java and Javascript.
+	Java is compield into bytecode and run on a virtual machine, while JavaScript can be interpreted directly by a browser in the syntax it is written.
+Explain the difference between the + and ++ operators in Javascript.
+	+ means addition which adds one value to another. ++ means increment which adds one to the current number.
+What are the differences between using window.alert(), console.log(), and document.write() ?
+	window.alert() returns a pop up alert. console.log() outputs whatever is parameter to log() to a console. document.write() is used on an html page to display text on the screen.
+Explain the differences between =, ==, and the === operators.
+	- is an assignment operator which is used to assign value of variable or expression. == is an equal to operator which compares only value, while === checks value as well as type.
+Describe the differences between two types of loops: while and do while.
+	In do while loop, the block of code is executed at least once. In while loop, the condition is first tested and then the block of code is executed if the test result is true.
+
+
+Part 3
+
+-->
+<!doctype html>
+
+<html>
+<head>
+<title> Javascript fun!! </title>
+</head>
+
+<body>
+<script>
+var name = prompt("Enter your name");
+for(let i = 0; i < 3; i ++) {
+	alert ("Welcome " + name.toUpperCase());
+}
+
+</script>
+
+</body>
+</html>
